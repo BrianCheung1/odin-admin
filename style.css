@@ -9,7 +9,7 @@
   display: grid;
   grid-template-columns: 1fr 4fr;
   grid-template-rows: 1fr 4fr;
-  box-sizing: border-box;
+  height: 100vh;
 }
 
 body {
@@ -55,11 +55,9 @@ body {
 
 .header {
   grid-column: 2/3;
-  grid-row: 1/2;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  box-sizing: border-box;
 }
 
 .searchbar {
@@ -143,7 +141,6 @@ body {
   grid-template-rows: 1fr 1fr;
   background-color: #e1e8f0;
   gap: 15px;
-  box-sizing: border-box;
 }
 
 .cards {
@@ -161,8 +158,6 @@ body {
 
 .card {
   background-color: white;
-  width: auto;
-  height: 200px;
   min-height: 200px;
   border-radius: 8px;
   padding: 16px;
@@ -181,9 +176,6 @@ body {
   background-color: white;
   border-radius: 8px;
   display: grid;
-  min-height: 250px;
-  max-height: 250px;
-  overflow: auto;
   font-size: 8px;
 }
 
@@ -194,9 +186,6 @@ body {
   display: grid;
   grid-template-rows: repeat(4, 1fr);
   align-items: center;
-  min-height: 250px;
-  max-height: 250px;
-  overflow: auto;
 }
 
 .trending-info {
@@ -209,4 +198,5 @@ body {
 hr.solid {
   height: 1px;
   background-color: gray;
+  margin: 15px 0px;
 }
