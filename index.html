@@ -9,33 +9,190 @@
   <body>
     <div class="container">
       <div class="header">
-        <div>Search bar/ Profile Image</div>
-        <div class="welcome">Welcome Message/ Buttons</div>
+        <div class="searchbar">
+          <img src="./public/magnify.svg" height="24" /><input
+            type="text"
+            id="searchbar"
+          />
+        </div>
+        <div class="notify">
+          <div>
+            <img src="./public/bell-ring.svg" height="24" />
+            <img src="./public/face-man-profile.svg" height="24" />
+            <p>Brian Cheung</p>
+          </div>
+        </div>
+
+        <div class="welcome">
+          <div class="welcome-img">
+            <img src="./public/face-man-profile.svg" height="48" />
+          </div>
+          <div class="welcome-msg">
+            <p>Welcome back,</p>
+            <p>Brian Cheung</p>
+          </div>
+        </div>
+        <div class="upload">
+          <div>
+            <button>button 1</button>
+            <button>button 1</button>
+            <button>button 1</button>
+          </div>
+        </div>
       </div>
       <div class="sidebar">
         <div>Logo</div>
         <div class="pages">
           <ul>
-            <li>Home</li>
-            <li>Profile</li>
-            <li>Messages</li>
-            <li>History</li>
-            <li>Tasks</li>
+            <li><img src="./public/home.svg" />Home</li>
+            <li>
+              <img src="./public/card-account-details-outline.svg" />Profile
+            </li>
+            <li><img src="./public/message-reply.svg" />Messages</li>
+            <li><img src="./public/clock-time-three.svg" />History</li>
+            <li><img src="./public/note-multiple.svg" />Tasks</li>
           </ul>
         </div>
         <div class="support">
           <ul>
-            <li>Settings</li>
-            <li>Support</li>
-            <li>privacy</li>
+            <li><img src="./public/cog.svg" />Settings</li>
+            <li><img src="./public/face-agent.svg" />Support</li>
+            <li><img src="./public/shield-check.svg" />privacy</li>
           </ul>
         </div>
       </div>
 
       <div class="card-container">
-        <div class="cards">cards</div>
-        <div class="announcements">announcements</div>
-        <div class="trending">trending</div>
+        <div class="cards">
+          <h2>Your Projects</h2>
+          <div class="all-cards">
+            <div class="card">
+              <h2>card1</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Aspernatur, amet hic laboriosam placeat iusto autem dolorum. At
+                delectus vero, hic rerum voluptatem eos nesciunt animi quae rem,
+                fuga itaque voluptate?
+              </p>
+            </div>
+            <div class="card">
+              <h2>card1</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Aspernatur, amet hic laboriosam placeat iusto autem dolorum. At
+                delectus vero, hic rerum voluptatem eos nesciunt animi quae rem,
+                fuga itaque voluptate?
+              </p>
+            </div>
+
+            <div class="card">
+              <h2>card1</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Aspernatur, amet hic laboriosam placeat iusto autem dolorum. At
+                delectus vero, hic rerum voluptatem eos nesciunt animi quae rem,
+                fuga itaque voluptate?
+              </p>
+            </div>
+
+            <div class="card">
+              <h2>card1</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Aspernatur, amet hic laboriosam placeat iusto autem dolorum. At
+                delectus vero, hic rerum voluptatem eos nesciunt animi quae rem,
+                fuga itaque voluptate?
+              </p>
+            </div>
+
+            <div class="card">
+              <h2>card1</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Aspernatur, amet hic laboriosam placeat iusto autem dolorum. At
+                delectus vero, hic rerum voluptatem eos nesciunt animi quae rem,
+                fuga itaque voluptate?
+              </p>
+            </div>
+
+            <div class="card">
+              <h2>card1</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Aspernatur, amet hic laboriosam placeat iusto autem dolorum. At
+                delectus vero, hic rerum voluptatem eos nesciunt animi quae rem,
+                fuga itaque voluptate?
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="announcements">
+          <h2>Announcements</h2>
+          <div class="ann-card">
+            <div>
+              <h2>a</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
+                nesciunt quibusdam nisi iure expedita ad ipsum nulla totam
+                officiis, facere, unde deleniti cumque repellat dignissimos nam
+                placeat sed possimus officia.t
+              </p>
+            </div>
+            <hr class="solid" />
+            <div>
+              <h2>a</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
+                nesciunt quibusdam nisi iure expedita ad ipsum nulla totam
+                officiis, facere, unde deleniti cumque repellat dignissimos nam
+                placeat sed possimus officia.t
+              </p>
+            </div>
+            <hr class="solid" />
+            <div>
+              <h2>a</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Et
+                nesciunt quibusdam nisi iure expedita ad ipsum nulla totam
+                officiis, facere, unde deleniti cumque repellat dignissimos nam
+                placeat sed possimus officia.t
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="trending">
+          <h2>Trending</h2>
+          <div class="trending-card">
+            <div class="trending-info">
+              <img src="./public/face-man-profile.svg" height="24" />
+              <div>
+                <p>@test</p>
+                <p>test</p>
+              </div>
+            </div>
+            <div class="trending-info">
+              <img src="./public/face-man-profile.svg" height="24" />
+              <div>
+                <p>@test</p>
+                <p>test</p>
+              </div>
+            </div>
+            <div class="trending-info">
+              <img src="./public/face-man-profile.svg" height="24" />
+              <div>
+                <p>@test</p>
+                <p>test</p>
+              </div>
+            </div>
+            <div class="trending-info">
+              <img src="./public/face-man-profile.svg" height="24" />
+              <div>
+                <p>@test</p>
+                <p>test</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </body>
